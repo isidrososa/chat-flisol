@@ -1,0 +1,9 @@
+<div *ngIf="auth.user; then chat else login"></div>
+
+<ng-template #login>
+  <app-login></app-login>
+</ng-template>
+
+<ng-template #chat>
+  <app-chat></app-chat>
+</ng-template>

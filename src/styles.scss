@@ -1,0 +1,46 @@
+/* You can add global styles to this file, and also import other style files */
+
+.my-center {
+  width: 100vw;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.my-messages {
+  height: 60vh;
+  max-height: 60vh;
+}
+
+.my-flex {
+  img {
+    width: 30px;
+    height: 30px;
+  }
+  p {
+    margin: 5px 10px;
+  }
+  .my-message {
+    margin-left: 5px;
+    border-radius: 7px;
+    border-bottom-left-radius: 0;
+  }
+  display: flex;
+  flex-wrap: nowrap;
+  align-items: flex-end;
+  margin: 10px;
+}
+
+.flx-first {
+  order: -1;
+}
+
+.flx-right {
+  justify-content: flex-end;
+  text-align: right;
+  .my-message {
+    border-radius: 7px;
+    border-bottom-right-radius: 0;
+  }
+}
